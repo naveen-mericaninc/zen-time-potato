@@ -1,15 +1,11 @@
-import Login from "@components/authentication";
-import React from "react";
+// import Index from "@components/inputs";
+import Inputs from "@components/inputs/inputs";
 
 const Home = () => {
   return (
-    <div>
-      <Login
-        Signin="Sign In Account"
-        email="Email Address"
-        Password="Password"
-      />
-    </div>
+    <>
+      <Inputs />
+    </>
   );
 };
 export default Home;
